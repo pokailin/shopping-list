@@ -1,0 +1,80 @@
+
+body {
+    color: #2f3a57;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.container {
+    background-color: #779092;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+/* -----  CARD ----- */
+.list {
+    max-width: 325px; 
+    margin: 0 auto;
+}
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff3e9;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 10px;
+}
+
+.card ul {
+    background-color: #aab9ba;
+    list-style-type: none;
+    padding: 20px 0px;
+}
+
+.card ul li {
+    list-style-type: none;
+    max-width: 225px;
+    margin: 0 auto 4px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ---- BUTTONS ---- */
+
+button:hover {
+    background-color: #779092;
+    color: #f0e1c3;
+}
+
+
+
+.input button:hover {
+    border:2px solid #779092;
+}
+
+.delete {
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+/* ---- INPUT ---- */
+
+.input {
+    margin-bottom: 15px;
+}
+
+
+/* ---- LIST ITEMS ---- */
+
+.done {
+    text-decoration: line-through;
+}
